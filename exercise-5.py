@@ -13,13 +13,15 @@
 
 # Hint: The next number is found by adding the two numbers before it
 
-a = 1
+term = 0
+a = 0
 b = 1
-for term in range (50):
+while term < 50:
   if term < 2:
-    print('term: {term} / number: {term}')
+    print(f'term: {term} / number: {term}')
   else:
-    result = a + b
-    print(f'term: {term} / result: {result}')
+    num = a + b
+    print(f'term: {term} / number: {num}')
     a = b
-    b = result
+    b = num
+  term += 1
