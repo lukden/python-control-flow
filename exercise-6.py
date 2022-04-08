@@ -38,4 +38,4 @@ elif month == 'Sep' and day > 21:
   season = 'Fall'
 elif month == 'Dec' and day > 20:
   season = 'Winter'
-print(f'{month} {day} is in {season}')
+print(f'{month.upper()} {day} is in {season}')
